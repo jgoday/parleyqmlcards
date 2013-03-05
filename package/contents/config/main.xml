@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kcfg xmlns="http://www.kde.org/standards/kcfg/1.0"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.kde.org/standards/kcfg/1.0
+      http://www.kde.org/standards/kcfg/1.0/kcfg.xsd" >
+  <include>QUrl.h</include>
+  <kcfgfile name=""/>
+
+  <group name="General">
+    <entry name="File Name" type="Url">
+      <label></label>
+      <default code="true">QUrl::fromLocalFile("file:///tmp")</default>
+<!--       <default>
+        <code>true</code>
+        <param>file:///home/jgoday/.kde/share/apps/kvtml/113481-eng-deu-vh-v.1.0.kvtml</param>
+      </default> -->
+    </entry>
+    <entry name="updateInterval" type="Int">
+      <default>60</default>
+    </entry>
+  </group>
+</kcfg>
